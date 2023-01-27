@@ -1,0 +1,35 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* .row */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+/* .row */
+.col {
+    display: flex;
+    flex-direction: column;
+}
+/* .btn search */
+.btn {
+    background-color: whitesmoke;
+    color:lightseagreen;
+    border-radius: 25px;
+    border: solid;
+    margin: 10px 25px;
+    padding: 5px 40px;
+    height: 30px;
+}
+.nav { /* navbar */
+    background-color: black;
+    display: flex;
+}
